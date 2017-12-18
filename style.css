@@ -7,6 +7,7 @@ html{
 }
 h1{
   text-align: center;
+  margin-bottom: 10px;
   color: #4CE0B3;
   font-variant: small-caps;
   font-size: 28px;
@@ -51,7 +52,7 @@ a{
 }
 body{
       font-family: 'Hind Siliguri', sans-serif;
-      background: #254E70 url('https://images.pexels.com/photos/265152/pexels-photo-265152.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+      background: #254E70 url('images/memphis.png');
       height: 100%;
       background-size: cover;
       width: 100%;
@@ -69,7 +70,7 @@ body{
       opacity: 0.95;
 }
     .top{
-      padding-bottom: 150px;
+      padding-bottom: 180px;
     }
     .img-container img{
       height: 150px;
@@ -274,6 +275,7 @@ body{
     .list-content{
       background: #F5F5F5;
       position: absolute;
+      width: 100%;
       top:0;
       bottom: 0;
       height: auto;
@@ -526,10 +528,12 @@ body{
     }
 /*************************BUTTON**********************************/
 .button{
- background-color:  #254E70;
+ background-color: #bfbfbf;
+ padding: 10px;
  color: white;
- border-radius: 5px;
- width: 30%;
+ border-radius: 50%;
+ height: 30px;
+ width: 30px;
  border-style: none;
  transition: all 0.4s ease;
 }
@@ -791,4 +795,101 @@ body{
 
 .trend line {
   stroke: rgba(204, 51, 51, 0.8);
+}
+/***************************** STAT CIRCLE **********************/
+/* General */
+
+
+/* Stats */
+.stats-container {
+  width: 100%;
+  max-width: 560px;
+  margin: 30px auto;
+}
+
+.stat-item {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  width: 33.33%;
+  padding: 2%;
+}
+
+.stat-item img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.stat-item img{
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.stat-path,
+.stat-back {
+  stroke-linecap: round;
+  stroke-width: 5;
+  fill: none;
+}
+
+@media only screen and (max-width: 580px) {
+  .stat-item {
+    width: 50%;
+  }
+}
+
+/* Tooltip */
+.tooltip .tooltiptext {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 10px;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 6px 12px;
+  background: #edeff0;
+  font-size: 10px;
+  color: #616161;
+  text-align: center;
+  white-space: nowrap;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext span {
+  display: block;
+  color: #ffffff;
+}
+
+.tooltip .tooltiptext:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent currentColor transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/********************LOGO*********************************/
+.logo-image img{
+  width: 40px;
+  margin-left: 29px;
+  margin-top: 29px;
+  opacity: 0.9;
+}
+.stat-back{
+opacity: 0.6;
 }
