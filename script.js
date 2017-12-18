@@ -1,27 +1,32 @@
 $(function(){
     $('.list li:first-child').click(function(){
        window.setTimeout(function() {
-           $('.profile').slideToggle();
+           $('.profil').slideToggle();
                 }, 300);
     });
     $('.list li:nth-child(2)').click(function(){
        window.setTimeout(function(){
-      $('.trivia').slideToggle();
+      $('.expro').slideToggle();
           },300);
     });
     $('.list li:nth-child(3)').click(function(){
        window.setTimeout(function(){
-      $('.movies').slideToggle();
+      $('.formation').slideToggle();
           },300);
     });
     $('.list li:nth-child(4)').click(function(){
        window.setTimeout(function(){
-      $('.awards').slideToggle();
+      $('.competence').slideToggle();
         }, 300);
     });
     $('.list li:nth-child(5)').click(function(){
        window.setTimeout(function(){
-      $('.quotes').slideToggle();
+      $('.outils').slideToggle();
+        }, 300);
+    });
+    $('.list li:nth-child(6)').click(function(){
+       window.setTimeout(function(){
+      $('.interet').slideToggle();
         }, 300);
     });
     $('.btn-close').click(function(){
@@ -122,3 +127,6 @@ function triggerStats(){
     });
   });
 };
+
+//  TEXT ANIMATION //////////////////////////////////////////////////:
+

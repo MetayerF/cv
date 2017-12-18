@@ -396,27 +396,27 @@ body{
         transform: none;
       }
     }
-    .profile ul{
+    .profil ul{
       margin-top: 20px;
     }
-    .profile li strong{
+    .profil li strong{
       color: #4CE0B3;
       font-weight: lighter;
     }
-    .profile p{
+    .profil p{
       margin: 10px;
       padding: 10px;
       color: #777;
     }
-    .movies p{
+    .formation p{
       padding: 10px;
       margin: 10px;
       color: #888;
     }
-    .movies li a{
+    .formation li a{
       text-decoration: none;
     }
-    .movies li span{
+    .formation li span{
       color: rgba(75,75,75,.8);
     }
     ::-webkit-scrollbar{
@@ -434,11 +434,11 @@ body{
     ::-webkit-scrollbar-corner{
       background: #EEE;
     }
-    .trivia p{
+    .expro p{
       padding: 10px;
       margin: 10px;
     }
-    .awards p{
+    .competence p{
       padding: 10px;
       margin: 10px;
     }
@@ -893,3 +893,44 @@ body{
 .stat-back{
 opacity: 0.6;
 }
+.logo-salesforce img{
+  width: 60px;
+  margin-left: 19px;
+  margin-top: 35px;
+  opacity: 0.9;
+}
+.logo-ruby img{
+  width: 35px;
+  margin-left: 30px;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+.logo-ruby-rails img{
+  width: 40px;
+  margin-left: 28px;
+  margin-top: 25px;
+  opacity: 0.8;
+}
+.logo-github img{
+  width: 55px;
+  margin-left: 21px;
+  margin-top: 25px;
+  opacity: 0.8;
+}
+.logo-java img{
+  width: 31px;
+  margin-left: 33px;
+  margin-top: 26px;
+  opacity: 0.8;
+}
+.image-interet img{
+
+  width: 80px;
+  margin-left: 110px;
+  align-items: center;
+}
+.interet-content{
+ text-align: center;
+}
+/**********************TEXT ANIMATION ****************************/
+
