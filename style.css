@@ -79,11 +79,9 @@ body{
       top:50px;
       position: relative;
       overflow: hidden;
-      border: 1px solid #DDD;
       padding: 5px;
-      background: #FFF;
+      background: #a5a4a4;
       border-radius: 50%;
-      box-shadow: 0 1px 3px 0 rgba(75,75,75,0.5);
       animation: fadeInOnly .8s ease-in-out;
     }
     @keyframes fadeInOnly{
@@ -933,4 +931,3 @@ opacity: 0.6;
  text-align: center;
 }
 /**********************TEXT ANIMATION ****************************/
-
