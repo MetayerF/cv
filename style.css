@@ -38,10 +38,10 @@ h4{
   font-variant: small-caps;
   font-weight: 200;
   color: #4CE0B3;
+  font-weight: bold;
 }
 h5{
   font-size: 13px;
-  font-weight: bolder;
   color: #616161;
 }
 h7{
@@ -61,7 +61,7 @@ body{
     }
     .card{
       position: relative;
-      width: 350px;
+      width: 30%;
       height: auto;
       /*border: 1px solid #CCC;*/
       box-shadow: 0 2px 3px rgba(0,0,0,0.16), 0 2px 3px rgba(0,0,0,0.23);
@@ -73,17 +73,14 @@ body{
       padding-bottom: 180px;
     }
     .img-container img{
-      height: 150px;
       width: 150px;
-      left: 100px;
+      left: 125px;
       top:50px;
       position: relative;
       overflow: hidden;
-      border: 1px solid #DDD;
       padding: 5px;
-      background: #FFF;
+      background: white;
       border-radius: 50%;
-      box-shadow: 0 1px 3px 0 rgba(75,75,75,0.5);
       animation: fadeInOnly .8s ease-in-out;
     }
     @keyframes fadeInOnly{
@@ -286,6 +283,8 @@ body{
       overflow-x:hidden;
     }
     .list-border li{
+      text-align: left;
+      padding: 10px;
       list-style: none;
       padding: 10px;
       padding-bottom: 10px;
@@ -296,10 +295,13 @@ body{
       border-radius: 4px;
       animation: fadeInUp .8s ease-in-out;
     }
+    .list-border i{
+      margin-right: 5px;
+    }
     .list-border img{
-      width: 100px;
-      margin-left: 90px;
-      margin-bottom: 10px;
+      width: 150px;
+      margin-left: 93px;
+      margin-bottom: 16px;
     }
     .list-border span{
       font-size: 14px;
@@ -550,7 +552,11 @@ body{
 }
 #logo-wagon{
   width: 80px;
-  margin-left: 95px;
+  margin-left: 140px;
+}
+#logo-kedge{
+  width: 140px;
+  margin-left: 110px;
 }
 /************************** GRAPH ************************/
 /* Mixings &  Variables */
@@ -597,7 +603,6 @@ body{
   position: relative;
   width: 100%;
   height: auto;
-  margin-bottom: 50px;
 }
 
 .graph {
@@ -886,17 +891,17 @@ body{
 /********************LOGO*********************************/
 .logo-image img{
   width: 40px;
-  margin-left: 29px;
-  margin-top: 29px;
+  margin-left: 40px;
+  margin-top: 40px;
   opacity: 0.9;
 }
 .stat-back{
 opacity: 0.6;
 }
 .logo-salesforce img{
-  width: 60px;
-  margin-left: 19px;
-  margin-top: 35px;
+  width: 70px;
+  margin-left: 25px;
+  margin-top: 44px;
   opacity: 0.9;
 }
 .logo-ruby img{
@@ -907,30 +912,63 @@ opacity: 0.6;
 }
 .logo-ruby-rails img{
   width: 40px;
-  margin-left: 28px;
-  margin-top: 25px;
+  margin-left: 38px;
+  margin-top: 36px;
   opacity: 0.8;
 }
 .logo-github img{
   width: 55px;
-  margin-left: 21px;
-  margin-top: 25px;
+  margin-left: 33px;
+  margin-top: 36px;
   opacity: 0.8;
 }
 .logo-java img{
   width: 31px;
-  margin-left: 33px;
-  margin-top: 26px;
+  margin-left: 45px;
+  margin-top: 36px;
   opacity: 0.8;
 }
 .image-interet img{
-
   width: 80px;
-  margin-left: 110px;
-  align-items: center;
+  margin-left: 145px;
 }
 .interet-content{
  text-align: center;
 }
 /**********************TEXT ANIMATION ****************************/
-
+.image-project-pro img{
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  margin-left: 140px;
+}
+.a-competence{
+  text-decoration: none;
+  color: #616161;
+  font-weight: lighter;
+  margin-left: 120px;
+}
+.a-competence:hover{
+  text-decoration: none;
+  color: #4CE0B3;
+}
+.a-profil {
+  text-decoration: none;
+}
+.a-profil:hover {
+  text-decoration: none;
+  color: #4CE0B3;
+}
+.logo-kickstarter img{
+  width: 90px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.formation-content {
+ text-align: center;
+}
+.level-language span{
+  color: #4c4c4c;
+}
