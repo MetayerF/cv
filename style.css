@@ -891,17 +891,17 @@ body{
 /********************LOGO*********************************/
 .logo-image img{
   width: 40px;
-  margin-left: 40px;
-  margin-top: 40px;
+  margin-left: 33px;
+  margin-top: 34px;
   opacity: 0.9;
 }
 .stat-back{
 opacity: 0.6;
 }
 .logo-salesforce img{
-  width: 70px;
-  margin-left: 25px;
-  margin-top: 44px;
+  width: 54px;
+  margin-left: 27px;
+  margin-top: 36px;
   opacity: 0.9;
 }
 .logo-ruby img{
@@ -912,20 +912,20 @@ opacity: 0.6;
 }
 .logo-ruby-rails img{
   width: 40px;
-  margin-left: 38px;
-  margin-top: 36px;
+  margin-left: 32px;
+  margin-top: 30px;
   opacity: 0.8;
 }
 .logo-github img{
   width: 55px;
-  margin-left: 33px;
-  margin-top: 36px;
+  margin-left: 27px;
+  margin-top: 31px;
   opacity: 0.8;
 }
 .logo-java img{
   width: 31px;
-  margin-left: 45px;
-  margin-top: 36px;
+  margin-left: 37px;
+  margin-top: 30px;
   opacity: 0.8;
 }
 .image-interet img{
