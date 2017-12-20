@@ -70,13 +70,22 @@ body{
   opacity: 0.95;
 }
 .top{
-  padding-bottom: 200px;
+  padding-bottom: 185px;
 }
+.img-container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-top: 30px;
+}
+.img-container-flex-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .img-container img{
-  width: 150px;
-  left: 115px;
-  top:50px;
-  position: relative;
+  width: 10em;
   overflow: hidden;
   padding: 5px;
   background: white;
@@ -116,26 +125,21 @@ body{
   }
 }
 .img-rounded img{
-  position: relative;
   border-radius: 50%;
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
   border: 1px solid rgba(203,202,202,.2);
-  top:20px;
-  left: 0;
   width: 100px;
   height: 100px;
   z-index: 10;
-  margin-left: 120px;
   animation: fadeIn .8s ease-in-out;
-  margin-bottom: 20px;
   background: rgba(0,0,0,.10);
 }
 .description{
   padding: 15px;
   position: absolute;
   line-height: 1.6em;
-  top:260px;
+  top:250px;
       /*background: rgba(255,255,255,.9);
       top:380px;*/
       width: 100%;
@@ -300,7 +304,6 @@ body{
 }
 .list-border img{
   width: 150px;
-  margin-left: 93px;
   margin-bottom: 16px;
 }
 .list-border span{
@@ -553,11 +556,11 @@ to {
 }
 #logo-wagon{
   width: 80px;
-  margin-left: 120px;
+  margin-left: 0px;
 }
 #logo-kedge{
   width: 140px;
-  margin-left: 90px;
+  margin-left: 0px;
 }
 /************************** GRAPH ************************/
 /* Mixings &  Variables */
@@ -974,7 +977,6 @@ to {
 }
 .image-interet img{
   width: 80px;
-  margin-left: 125px;
 }
 .interet-content{
  text-align: center;
