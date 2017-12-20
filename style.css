@@ -533,7 +533,7 @@ to {
 }
 /*************************BUTTON**********************************/
 .button{
- background-color: #bfbfbf;
+ background-color: #f15a5a;
  padding: 10px;
  margin-top: 10px;
  color: white;
@@ -941,6 +941,8 @@ to {
   margin-left: 33px;
   margin-top: 34px;
   opacity: 0.9;
+  display: flex;
+
 }
 .stat-back{
   opacity: 0.6;
