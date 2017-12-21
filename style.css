@@ -60,7 +60,6 @@ body{
   line-height: 1.5em;
 }
 .card{
-  position: relative;
   width: 30%;
   height: auto;
   /*border: 1px solid #CCC;*/
